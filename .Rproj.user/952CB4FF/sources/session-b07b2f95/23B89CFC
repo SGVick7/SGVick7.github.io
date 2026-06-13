@@ -3,24 +3,24 @@
     "path": "~/GitHub/SGVick7.github.io/_config.yml",
     "project_path": "_config.yml",
     "type": "yaml",
-    "hash": "560437411",
+    "hash": "2766677636",
     "contents": "",
-    "dirty": false,
+    "dirty": true,
     "created": 1781310356442.0,
     "source_on_save": false,
     "relative_order": 10,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "83,1",
-        "scrollLine": "66"
+        "cursorPosition": "336,27",
+        "scrollLine": "315"
     },
     "folds": "",
     "lastKnownWriteTime": 1781317559,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1781317559406,
+    "last_content_update": 1781318016220,
     "read_only": false,
     "read_only_alternatives": []
 }
