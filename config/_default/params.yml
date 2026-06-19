@@ -30,14 +30,12 @@ author: Ana Victória
 email: ana.s.goncalves@ufv.br
 description: "Portfólio de Estatística e Ciência de Dados"
 subtitle: "Projetos, estudos e análes estatísticas"
-subtitle:
-  typing:
+    typing:
     enable: false
-    strings:
-      # - Sentence 1
-      # - Sentence 2
-      # - Sentence 3
-      # - Sentence 4
+    "strings:
+       - Início
+       - Projetos
+       - Currículo'
     typeSpeed: 100              # 打字速度（毫秒/字符） 
     backSpeed: 50               # 删除速度（毫秒/字符）
     backDelay: 2000             # 打完一句话后，等待时间
