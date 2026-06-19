@@ -1,8 +1,7 @@
 ---
 title: "Sistema de Atendimento Bancário em Python"
-date: 2026-05-24
-----------------
-
+date: "2026-05-24"
+---
 # Sistema de Atendimento Bancário em Python
 
 # Objetivo
@@ -44,7 +43,6 @@ O projeto foi implementado em Python com o objetivo de simular o funcionamento d
 ## Código-Fonte
 
 ````yml
-
 fila = []
 dados = ""
 senha = 0

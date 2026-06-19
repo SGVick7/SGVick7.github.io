@@ -4,3 +4,7 @@
     min = "0.158.0"
     languageCode = "pt-br"
 defaultContentLanguage = "pt"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,8 +1,7 @@
 ---
 title: "Currículo"
 date: 2026-06-18
-----------------
-
+---
 # Ana Victória Silva Gonçalves
 
 Estudante de Estatística com interesse em Ciência de Dados, Análise Estatística, Visualização de Dados e Pesquisa Quantitativa.
