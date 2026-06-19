@@ -1,13 +1,9 @@
 ---
-title: Currículo
-description: 关于
----
-
 title: "Currículo"
 date: 2026-06-18
 ----------------
 
-# Ana Victoria Silva Gonçalves
+# Ana Victória Silva Gonçalves
 
 Estudante de Estatística com interesse em Ciência de Dados, Análise Estatística, Visualização de Dados e Pesquisa Quantitativa.
 
@@ -108,8 +104,5 @@ Previsão de conclusão: 2030
 * Inglês: Leitura técnica
 
 
-date: 2022-06-09T20:12:52+08:00
-lastmod: 2022-06-09T20:12:52+08:00
 
----
 
