@@ -30,21 +30,21 @@ author: Ana Victória
 email: ana.s.goncalves@ufv.br
 description: "Portfólio de Estatística e Ciência de Dados"
 subtitle: "Projetos, estudos e análes estatísticas"
-    typing:
-    enable: false
-    "strings:
-       - Início
-       - Projetos
-       - Currículo'
-    typeSpeed: 100              # 打字速度（毫秒/字符） 
-    backSpeed: 50               # 删除速度（毫秒/字符）
-    backDelay: 2000             # 打完一句话后，等待时间
-    startDelay: 300             # 页面加载后，等待时间
-    loop: true                  # 是否循环播放
-    shuffle: true              # 是否随机输出句子
-    showCursor: true            # 是否显示闪烁的字符
-    cursorChar: "|"             # 字符
-    smartBackspace: false       # 智能退格，只删除不同的部分
+typing:
+  enable: false
+  strings:
+    - Início
+    - Projetos
+    - Currículo
+  typeSpeed: 100
+  backSpeed: 50
+  backDelay: 2000
+  startDelay: 300
+  loop: true
+  shuffle: true
+  showCursor: true
+  cursorChar: "|"
+  smartBackspace: false       # 智能退格，只删除不同的部分
   text: "少女祈祷中..."        # 当 typing.enable = false 时使用
 
 banner: "images/banner-ceu.jpg"
@@ -54,13 +54,13 @@ banner: "images/banner-ceu.jpg"
 # If you want to use the srcset attribute, please enable it
 banner_srcset:
   enable: false
-  '''srcset:
-    - src: "images/banner-600w.webp"
+  srcset:
+    - src: "images/banner-ceu.jpg"
       media: "(max-width: 479px)"
-    - src: "images/banner-800w.webp"
+    - src: "images/banner-ceu.jpg"
       media: "(max-width: 799px)"
-    - src: "images/banner.webp"
-      media: "(min-width: 800px)"'''
+    - src: "images/banner-ceu.jpg"
+      media: "(min-width: 800px)"
 
 avatar: "icon.jpg"
 
