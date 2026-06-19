@@ -5,17 +5,17 @@
 # main menu navigation
 # for more icon information, please visit https://github.com/D-Sketon/hexo-theme-reimu/issues/30
 menu:
-  - name: home
+  - name: Início
     url: ""
     icon: # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
-  - name: archives
-    url: "archives"
+  - name: Projetos
+    url: "projetos"
     icon:
-  - name: about
-    url: "about"
+  - name: Currículo
+    url: "curriculo"
     icon:
-  - name: friend
-    url: "friend"
+  - name: Contato
+    url: "contato"
     icon:
 
 mainSections: ["post"]
@@ -28,8 +28,8 @@ timeFormat: "2006-01-02 15:04:05"
 
 author: Ana Victória 
 email: ana.s.goncalves@ufv.br
-description: "少女祈祷中..."
-# subtitle: "少女祈祷中..."
+description: "Portfólio de Estatística e Ciência de Dados"
+subtitle: "Projetos, estudos e análes estatísticas"
 subtitle:
   typing:
     enable: false
@@ -49,22 +49,22 @@ subtitle:
     smartBackspace: false       # 智能退格，只删除不同的部分
   text: "少女祈祷中..."        # 当 typing.enable = false 时使用
 
-banner: "images/banner.webp"
+banner: "images/banner-ceu.jpg"
 # You can also write it in the form of the following url
 # banner: "https://example.com"
 
 # If you want to use the srcset attribute, please enable it
 banner_srcset:
   enable: false
-  srcset:
+  '''srcset:
     - src: "images/banner-600w.webp"
       media: "(max-width: 479px)"
     - src: "images/banner-800w.webp"
       media: "(max-width: 799px)"
     - src: "images/banner.webp"
-      media: "(min-width: 800px)"
+      media: "(min-width: 800px)"'''
 
-avatar: "avatar.webp"
+avatar: "icon.jpg"
 
 # Control the display of the post cover
 # If not set, the banner image will be displayed by default
@@ -88,7 +88,7 @@ open_graph:
     #fb_app_id: <fb:app_id>
 
 # Content
-excerpt_link: Read More
+excerpt_link: Ler mais
 
 # Footer copyright
 # Inject code snippet right in the footer copyright
@@ -114,20 +114,20 @@ footer:
 # Sidebar
 # sidebar: right # deprecated, use sidebar.position instead
 sidebar:
-  position: right
+  position: left
   menu: true  # whether to show the sidebar menu button, ignored on mobile devices
   article:
     show_common: true # whether to show common sidebar, ignored on mobile devices
 
 social:
-  # email: mailto:xxx@gmail.com
-  # github: https://github.com/yourname
+   email: ana.s.goncalves@ufv.br
+   github: https://github.com/SGVick7
   # google: https://plus.google.com/yourname
   # twitter: https://twitter.com/yourname
   # bluesky: https://bsky.app/profile/yourname
   # facebook: https://www.facebook.com/yourname
   # instagram: https://www.instagram.com/yourname
-  # linkedin: https://www.linkedin.com/in/yourname
+   linkedin: https://www.linkedin.com/in/yourname
   # pinterest: https://www.pinterest.com/yourname
   # youtube: https://www.youtube.com/channel/yourname
   # vimeo: https://vimeo.com/yourname
