@@ -197,25 +197,3 @@ A comparação permitiu demonstrar como a escolha da escala interfere na interpr
 ## Fonte dos Dados
 
 Dados de homicídios no Brasil (2010–2023) utilizados para fins educacionais e de análise gráfica.
-
-
-
-
-date: 2022-06-09T20:12:52+08:00
-lastmod: 2022-06-09T20:12:52+08:00
----
-
-## 本站信息
-
-- 站名： 拔剑Sketon
-- 站长： 拔剑Sketon
-
-## 申请方法
-
-- 添加本站后，在本页留言，格式如下
-
-
-
-## 小伙伴们
-
-{{< friendsLink >}}
