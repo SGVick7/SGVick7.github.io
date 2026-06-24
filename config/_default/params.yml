@@ -8,9 +8,9 @@ menu:
   - name: Início
     url: ""
     icon: # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
-  - name: Projetos
-    url: "/projetos/"
-    icon:
+  #- name: Projetos
+    #url: "/projetos/"
+    #icon:
   - name: Currículo
     url: "curriculo"
     icon:
@@ -18,7 +18,9 @@ menu:
     url: "contato"
     icon:
 
-mainSections: ["post"]
+mainSections: #["projetos"]
+  - projetos
+  - post
 # 年，月，日及时间的格式化样式
 # Format style for year,month,date & time
 yearFormat: "2006"
@@ -572,7 +574,7 @@ top:
   enable: true
   position: right # left or right
   icon:
-    url: "../images/icon-1.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
+    url: "../images/meu-logo.gif" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     rotate: true
     mask: true # whether to use the images as a mask
 
@@ -581,10 +583,10 @@ outdate:
   enable: false
   daysAgo: 180 # The number of days after which the article is considered outdated
   message:
-    en: This article was last updated on {time}. Please note that the content may no longer be applicable.
-    zh-CN: 本文最后更新于 {time}，请注意文中内容可能已不适用。
-    zh-TW: 本文最後更新於 {time}，請注意文中內容可能已不適用。
-    ja: この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。
+    #en: This article was last updated on {time}. Please note that the content may no longer be applicable.
+    #zh-CN: 本文最后更新于 {time}，请注意文中内容可能已不适用。
+    #zh-TW: 本文最後更新於 {time}，請注意文中內容可能已不適用。
+    #ja: この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。
     pt-BR: Este artigo foi atualizado pela última vez em {time}. Observe que o conteúdo pode não ser mais aplicável.
 
 # ICP 备案
@@ -607,7 +609,7 @@ sponsor:
     ja: コーヒーを買ってください
     pt-BR: Compre-me um café
   icon:
-    url: "../images/icon-1.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
+    url: "C:/Users/Vick/Documents/GitHub/SGVick7.github.io/static/images/icon-1.jpg" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     rotate: true
     mask: true # whether to use the images as a mask
   qr:
