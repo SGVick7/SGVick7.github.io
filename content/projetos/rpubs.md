@@ -1,48 +1,26 @@
 ---
-
 title: "Análise da Representação Gráfica de Dados sobre Homicídios no Brasil"
-
 date: "2026-06-05"
-
+cover: "/images/grafico.jpg"
 ---
-
-
-
-
 
 ## Objetivo
 
-
-
 Avaliar criticamente a representação gráfica utilizada em uma notícia sobre a evolução dos homicídios no Brasil e discutir como escolhas visuais podem influenciar a interpretação dos dados.
-
-
 
 ## Descrição
 
-
-
 Neste trabalho foi realizada uma análise da representação gráfica utilizada em uma reportagem sobre a redução dos homicídios no Brasil. O estudo investigou como o uso de um eixo vertical truncado pode gerar uma percepção exagerada da magnitude da redução observada.
 
-
-
 Para isso, foram construídos dois gráficos:
-
-
 
 1. Reprodução da representação com eixo Y truncado.
 
 2. Representação alternativa com eixo iniciando em zero.
 
-
-
 A comparação permitiu demonstrar como a escolha da escala interfere na interpretação visual dos dados.
 
-
-
 ## Técnicas Aplicadas
-
-
 
 * Estatística descritiva.
 
@@ -55,9 +33,6 @@ A comparação permitiu demonstrar como a escolha da escala interfere na interpr
 
 
 ## Ferramentas Utilizadas
-
-
-
 * R
 
 * ggplot2
