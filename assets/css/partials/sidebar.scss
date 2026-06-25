@@ -432,6 +432,21 @@
   }
 }
 
+.sidebar-menu-icon-mask {
+  display: block;
+  width: 1.4em;
+  height: 1.4em;
+  background-color: currentColor;
+  -webkit-mask-image: var(--icon-url);
+  mask-image: var(--icon-url);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
 .sidebar-menu-icon {
   @include menu-link;
   font-size: 24px;
@@ -484,16 +499,24 @@
   }
 
   .sidebar-menu-link {
-    color: #fff;
+    color: #2e5fad;
     opacity: 1;
   }
 
   .sidebar-menu-icon {
-    opacity: 1;
-    color: #fff;
+    opacity: 5;
+    color: #2e5fad;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 6px;
   }
 }
-
+.sidebar-menu-icon-label {
+  font-size: 12px;
+  font-weight: 600;
+  pointer-events: none;
+  white-space: nowrap;
+}
 .sidebar-toc-wrapper {
   color: var(--color-link);
   flex: 1;

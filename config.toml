@@ -3,7 +3,7 @@
     extended = true
     min = "0.158.0"
     languageCode = "pt-br"
-defaultContentLanguage = "pt"
+    defaultContentLanguage = "pt-BR"
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

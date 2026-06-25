@@ -7,16 +7,16 @@
 menu:
   - name: Início
     url: ""
-    icon: # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
+    icon: "/images/gato_sem_fundo.gif" # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
   #- name: Projetos
     #url: "/projetos/"
     #icon:
   - name: Currículo
     url: "curriculo"
-    icon:
-  - name: Contato
-    url: "contato"
-    icon:
+    icon: "/images/gato_sem_fundo.gif"
+  #- name: Contato
+   # url: "contato"
+    #icon: "/images/gato_sem_fundo.gif"
 
 mainSections: #["projetos"]
   - projetos
@@ -154,7 +154,7 @@ widgets:
   - category
  # - tag
 #  - tagcloud
-  - recent_posts
+ # - recent_posts
 
 # Widget behavior
 category_limits: 10
@@ -740,42 +740,38 @@ material_theme:
 
 internal_theme:
   light:
-  --red-0: '#000020'
-  --red-1: '#171a4a'
-  --red-2: '#2f2c79'   # cor principal
-  --red-3: '#675cb0'
-  --red-4: '#9f90ea'
-  --red-5: '#f2f0ff'
-  --red-5-5: '#f8f7ff'
-  --red-6: '#fcfcff'
-
-  --color-red-6-shadow: 'rgba(47, 44, 121, 0.6)'
-  --color-red-3-shadow: 'rgba(47, 44, 121, 0.3)'
-
-  --highlight-nav: "#f5f6ff"
-  --highlight-scrollbar: "#9f90ea"
-  --highlight-background: "#fcfcff"
-  --highlight-selection: "#9f90ea55"
-  --highlight-foreground: "#1a1a2e"
-  --highlight-comment: "#6b6b7d"
-
-  --highlight-red: "#2f2c79"
-  --highlight-orange: "#675cb0"
-  --highlight-yellow: "#9f90ea"
-  --highlight-green: "#2f2c79"
-  --highlight-aqua: "#675cb0"
-  --highlight-blue: "#2f2c79"
-  --highlight-purple: "#675cb0"
-
-  --highlight-deletion: "#171a4a"
-  --highlight-deletion-bg: "#ecebff"
-  --highlight-addition: "#2f2c79"
-  --highlight-addition-bg: "#f2f0ff"
-   # --red-0: '#ff0000'
-  #  --red-1: '#ff5252'
-  #  --red-2: '#ff7c7c'
-  #  --red-3: '#ffafaf'
-  #  --red-4: '#ffd0d0'
+    --blue-0: '#000020'
+    --blue-1: '#171a4a'
+    --blue-2: '#2f2c79'   # cor principal
+    --blue-3: '#675cb0'
+    --blue-4: '#9f90ea' #azul claro letras
+    --blue-5: '#9f90ea'
+    --blue-5-5: '#9f90ea' #simbolo do github
+    --blue-6: '#9b95e0'
+    --color-red-6-shadow: 'rgba(47, 44, 121, 0.6)'
+    --color-red-3-shadow: 'rgba(47, 44, 121, 0.3)'
+    --highlight-nav: "#f5f6ff"
+    --highlight-scrollbar: "#9f90ea"
+    --highlight-background: "#fcfcff"
+    --highlight-selection: "#9b95e0"
+    --highlight-foreground: "#1a1a2e"
+    --highlight-comment: "#6b6b7d"
+    --highlight-red: "#2f2c79"
+    --highlight-orange: "#675cb0"
+    --highlight-yellow: "#9f90ea"
+    --highlight-green: "#2f2c79"
+    --highlight-aqua: "#675cb0"
+    --highlight-blue: "#2f2c79"
+    --highlight-purple: "#675cb0"
+    --highlight-deletion: "#171a4a"
+    --highlight-deletion-bg: "#ecebff"
+    --highlight-addition: "#2f2c79"
+    --highlight-addition-bg: "#f2f0ff"
+       # --red-0: '#ff0000'
+    #  --red-1: '#ff5252'
+    #  --red-2: '#ff7c7c'
+    #  --red-3: '#ffafaf'
+    #  --red-4: '#ffd0d0'
   #  --red-5: '#ffecec'
   #  --red-5-5: '#fff3f3'
   #  --red-6: '#fff7f7'
@@ -800,25 +796,25 @@ internal_theme:
   #  --highlight-addition: "#22863a"
   #  --highlight-addition-bg: "#f0fff4"
   dark:
-    --red-4: 'rgba(255, 208, 208, 0.5)'
-    --red-5: 'rgba(255,228,228,0.15)'
-    --red-5-5: 'rgba(255,236,236,0.05)'
-    --red-6: 'rgba(255, 243, 243, 0.2)'
-
-    --highlight-nav: "#222830"
-    --highlight-scrollbar: "#454d59"
-    --highlight-background: "#1e2027"
-    --highlight-selection: "#51515155"
-    --highlight-foreground: "#c9d1d9"
-    --highlight-comment: "#8b949e"
-    --highlight-red: "#ff7b72"
-    --highlight-orange: "#ffa657"
-    --highlight-yellow: "#ffcc66"
-    --highlight-green: "#7ee787"
-    --highlight-aqua: "#a5d6ff"
-    --highlight-blue: "#79c0ff"
-    --highlight-purple: "#d2a8ff"
-    --highlight-deletion: "#ffa198"
-    --highlight-deletion-bg: "#490202"
-    --highlight-addition: "#7ee787"
-    --highlight-addition-bg: "#04260f"
+      --red-4: '#9f90ea'
+      --red-5: 'rgba(255,228,228,0.15)'
+      --red-5-5: 'rgba(255,236,236,0.05)'
+      --red-6: 'rgba(255, 243, 243, 0.2)'
+  
+      --highlight-nav: "#222830"
+      --highlight-scrollbar: "#6a9bd4"
+      --highlight-background: "#1e2027"
+      --highlight-selection: "#51515155"
+      --highlight-foreground: "#c9d1d9"
+      --highlight-comment: "#8b949e"
+      --highlight-red: "#ff7b72"
+      --highlight-orange: "#ffa657"
+      --highlight-yellow: "#ffcc66"
+      --highlight-green: "#7ee787"
+      --highlight-aqua: "#a5d6ff"
+      --highlight-blue: "#79c0ff"
+      --highlight-purple: "#d2a8ff"
+      --highlight-deletion: "#ffa198"
+      --highlight-deletion-bg: "#490202"
+      --highlight-addition: "#7ee787"
+      --highlight-addition-bg: "#04260f"

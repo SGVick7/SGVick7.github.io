@@ -179,8 +179,8 @@
     padding: 0 10px;
   }
 
-  @media #{$mg-normal} {
-    display: none;
+ @media #{$mg-normal} {
+   display: none !important;
   }
 
   &:hover .main-nav-icon:before {
@@ -229,7 +229,7 @@
 }
 
 #main-nav-toggle {
-  display: none;
+  display: block;
 
   @media #{$mg-normal} {
     display: block;

@@ -15,7 +15,7 @@
   --color-archive-year: black;
   --color-default: #444;
   --color-border: var(--red-3);
-  --color-link: var(--red-1);
+  --color-link: var(--red-3);
   --color-background: #eee;
   --color-code-background: #f8f8f8;
   --color-header-background: rgba(255, 255, 255, 0.9);
@@ -67,7 +67,7 @@
     --red-6: #{$dark-red-6};
 
     --color-archive-year: #999;
-    --color-default: #999;
+    --color-default: #dcdfe6;
     --color-border: var(--red-5);
     --color-background: #21252b;
     --color-code-background: rgba(232, 232, 232, 0.1);
@@ -125,7 +125,7 @@ $line-height: 1.67;
 $line-height-title: 1.2em;
 
 // Header
-$logo-size: 40px;
+$logo-size: 56px;
 $subtitle-size: 18px;
 $banner-height: 35vh;
 

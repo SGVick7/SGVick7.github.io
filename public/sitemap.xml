@@ -2,23 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2026-06-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/curriculo/</loc>
+    <loc>//localhost:1313/curriculo/</loc>
     <lastmod>2026-06-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/projetos/</loc>
+    <loc>//localhost:1313/projetos/rpubs/</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/estat%C3%ADstica/</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/projetos/</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/python/</loc>
     <lastmod>2026-05-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/projetos/sistema-bancario/</loc>
+    <loc>//localhost:1313/projetos/sistema-bancario/</loc>
     <lastmod>2026-05-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/contato/</loc>
+    <loc>//localhost:1313/contato/</loc>
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
-  </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>

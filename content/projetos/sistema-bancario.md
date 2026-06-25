@@ -2,6 +2,8 @@
 title: "Sistema de Atendimento Bancário em Python"
 date: "2026-05-24"
 cover: "/images/atendimento.png"
+categories:
+  - Python
 ---
 
 # Objetivo

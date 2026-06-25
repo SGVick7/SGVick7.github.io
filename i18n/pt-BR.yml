@@ -21,10 +21,10 @@ tag: Tag
 toc: Sumário
 more: Mais
 
-home: INÍCIO
-about: SOBRE MIM
-friend: AMIGOS
-archives: ARQUIVOS
+Início: Início
+Currículo: Currículo
+#friend: AMIGOS
+#archives: ARQUIVOS
 
 sidebar:
   post: Posts
