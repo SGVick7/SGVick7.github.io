@@ -1,0 +1,18 @@
+{{- define "main" -}}
+  {{- $ctx := . -}}
+  {{- $pageSize := 0 -}}
+  {{- with $.Site.Params.paginate.post -}}
+    {{- $pageSize = . -}}
+  {{- end -}}
+  {{- $pages := .Pages -}}
+  {{- $paginator := "" -}}
+  {{- if gt $pageSize 0 -}}
+    {{- $paginator = .Paginate $pages.ByDate.Reverse $pageSize -}}
+  {{- else -}}
+    {{- $paginator = .Paginate $pages.ByDate.Reverse -}}
+  {{- end -}}
+  {{- range $k, $v := $paginator.Pages -}}
+    {{- partial "post.html" (dict "index" $k "ctx" $ctx "page" $v) -}}
+  {{- end -}}
+  {{- partial "pagination.html" . -}}
+{{- end -}}

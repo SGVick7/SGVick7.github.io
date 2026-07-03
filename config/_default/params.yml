@@ -12,14 +12,17 @@ menu:
     #url: "/projetos/"
     #icon:
   - name: Currículo
-    url: "curriculo"
+    url: "/curriculo/"
     icon: "/images/gato_sem_fundo.gif"
-  #- name: Contato
-   # url: "contato"
-    #icon: "/images/gato_sem_fundo.gif"
+  - name: Projetos
+    url: "/projetos/"
+    icon: "/images/gato_sem_fundo.gif"
+  - name: Contato
+    url: "contato"
+    icon: "/images/gato_sem_fundo.gif"
 
 mainSections: #["projetos"]
-  - projetos
+  #- Projetos
   - post
 # 年，月，日及时间的格式化样式
 # Format style for year,month,date & time
@@ -31,7 +34,7 @@ timeFormat: "2006-01-02 15:04:05"
 author: Ana Victória 
 email: ana.s.goncalves@ufv.br
 description: "Portfólio Profissional"
-subtitle: "Projetos, estudos e análes estatísticas"
+subtitle: "Portfólio Profissional"
 typing:
   enable: false
   strings:
@@ -49,7 +52,7 @@ typing:
   smartBackspace: false       # 智能退格，只删除不同的部分
   text: "..."        # 当 typing.enable = false 时使用
 
-banner: "images/photo.jpg"
+banner: "images/computador2.png"
 # You can also write it in the form of the following url
 # banner: "https://example.com"
 
@@ -127,7 +130,7 @@ social:
   # bluesky: https://bsky.app/profile/yourname
   # facebook: https://www.facebook.com/yourname
   # instagram: https://www.instagram.com/yourname
-   linkedin: https://www.linkedin.com/in/yourname
+   linkedin: https://www.linkedin.com/in/ana-victória-silva-gonçalves-872797326?utm_source=share_via&utm_content=profile&utm_medium=member_android
   # pinterest: https://www.pinterest.com/yourname
   # youtube: https://www.youtube.com/channel/yourname
   # vimeo: https://vimeo.com/yourname
@@ -654,7 +657,7 @@ injector:
 
 # Experimental, may have a lot of bugs, open with caution!
 pjax:
-  enable: false
+  enable: true
 
 # Experimental
 # https://github.com/GoogleChromeLabs/quicklink
@@ -695,18 +698,22 @@ player:
   # if you enable meting, you must enable aplayer first
   aplayer:
     # https://github.com/DIYgod/APlayer
-    enable: false
+    enable: true
     options:
-      audio: []
-      fixed: true
-      autoplay:
-      loop:
-      order:
-      preload:
-      volume:
-      mutex:
-      listFolded:
-      lrcType:
+      audio:
+        - name: "No Blueberries"
+          artist: "DPR IAN"
+          url: "/music/no-blueberries-dpr-ian.mp3"
+          cover: "/images/no-blueberries.jpg"
+      fixed: false
+      autoplay: false
+      loop: "all"
+      order: "list"
+      preload: "auto"
+      volume: 0.7
+      mutex: true
+      listFolded: false
+      lrcType: false
   meting:
     # https://github.com/metowolf/MetingJS
     # if you want to use meting, please enable aplayer first
@@ -744,7 +751,7 @@ internal_theme:
     --blue-1: '#171a4a'
     --blue-2: '#2f2c79'   # cor principal
     --blue-3: '#675cb0'
-    --blue-4: '#9f90ea' #azul claro letras
+    --red-4: '#89a9e8' #azul claro letras
     --blue-5: '#9f90ea'
     --blue-5-5: '#9f90ea' #simbolo do github
     --blue-6: '#9b95e0'
@@ -798,13 +805,13 @@ internal_theme:
   dark:
       --red-0: '#89a9e8'
       --red-1: '#1e3a6e'
-      --red-4: '#9f90ea'
+      --red-4: '#89a9e8'
       --red-5: 'rgba(255,228,228,0.15)'
       --red-5-5: 'rgba(255,236,236,0.05)'
       --red-6: 'rgba(255, 243, 243, 0.2)'
   
       --highlight-nav: "#222830"
-      --highlight-scrollbar: "#7ee787"
+      --highlight-scrollbar: "#6a9bd4"
       --highlight-background: "#1e2027"
       --highlight-selection: "#51515155"
       --highlight-foreground: "#c9d1d9"

@@ -100,12 +100,14 @@
   display: inline-block;
   text-decoration: none;
   font-weight: bold;
-  color: var(--red-0);
+  color: #1d2f54;
   transition: 0.3s;
   opacity: 0.7;
   margin-left: 16px;
 }
-
+[data-theme="dark"] .archive-article-title {
+  color: #6a9bd4; // modo escuro
+}
 .tag-wrap,
 .category-wrap {
   display: flex;

@@ -11,6 +11,21 @@
     {{- $paginator = .Paginate (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) -}}
   {{- end -}}
   {{- $sort_config := .Site.Params.sort_order.home -}}
+  {{- if eq 1 $paginator.PageNumber -}}
+    {{- $projects := where .Site.RegularPages "Section" "in" (slice "projetos") -}}
+    {{- $featuredProjects := first 3 $projects.ByDate.Reverse -}}
+    {{- if gt (len $featuredProjects) 0 -}}
+      <div class="featured-projects-wrap">
+        <div class="featured-projects-title-wrap">
+          <span class="featured-projects-title">{{ i18n "featured_projects.title" }}</span>
+          <a class="featured-projects-more" href="{{ "projetos/" | relLangURL }}">{{ i18n "featured_projects.more" }}</a>
+        </div>
+        {{- range $k, $v := $featuredProjects -}}
+          {{- partial "post.html" (dict "index" $k "ctx" $ctx "page" $v) -}}
+        {{- end -}}
+      </div>
+    {{- end -}}
+  {{- end -}}
   {{- if and (eq 1 $paginator.PageNumber) ($ctx.Site.Params.home_categories.enable) -}}
     <div class="post-categories-wrapper" data-aos="{{ $ctx.Site.Params.animation.options.home.post }}">
       {{- range $k, $v := $ctx.Site.Params.home_categories.content -}}

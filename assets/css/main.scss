@@ -415,3 +415,12 @@ a, .main-nav-icon, .popup-btn-close, button {
 [data-theme="dark"] .sidebar-state-article div {
   color: var(--red-2) !important;
 }
+
+[data-theme="dark"] .archives-category-list-link {
+  color: var(--red-2) !important;
+  border-color: var(--red-2) !important;
+}
+
+[data-theme="dark"] .archives-category-list-item::before {
+  color: var(--red-2) !important;
+}

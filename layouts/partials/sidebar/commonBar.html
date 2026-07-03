@@ -10,11 +10,11 @@
   <div class="sidebar-description">{{ $params.description }}</div>
 </div>
 <div class="sidebar-state">
-  <div class="sidebar-state-article">
-    <div>{{ i18n "sidebar.post" }}</div>
-    {{- $posts := (where .ctx.Page.Site.RegularPages "Section" "in" $params.mainSections) -}}
-    <div class="sidebar-state-number">{{ len $posts }}</div>
-  </div>
+  <a class="sidebar-state-project" href="{{ "projetos/" | relLangURL }}" aria-label="sidebar-state-project-link">
+    <div>Projetos</div>
+    {{- $projetos := (where .ctx.Page.Site.RegularPages "Section" "in" (slice "projetos")) -}}
+    <div class="sidebar-state-number">{{ len $projetos }}</div>
+  </a>
   <a class="sidebar-state-category" href="{{ "categories/" | relLangURL }}" aria-label="sidebar-state-category-link">
     <div>{{ i18n "sidebar.category" }}</div>
     <div class="sidebar-state-number">{{ len .ctx.Site.Taxonomies.categories }}</div>

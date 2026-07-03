@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS on </title>
+    <link>/categories/css/</link>
+    <description>Recent content from </description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    
+    <managingEditor>ana.s.goncalves@ufv.br (Ana Victória)</managingEditor>
+    <webMaster>ana.s.goncalves@ufv.br (Ana Victória)</webMaster>
+    
+    <copyright>Todos os artigos deste blog estão licenciados sob BY-NC-SA salvo indicação em contrário. Por favor, indique a fonte ao reproduzir!</copyright>
+    
+    <lastBuildDate></lastBuildDate>
+    
+    
+    <atom:link href="/categories/css/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+  </channel>
+</rss>

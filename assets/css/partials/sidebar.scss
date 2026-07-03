@@ -156,7 +156,9 @@
 .sidebar-state-tag {
   border-left: 1px solid var(--red-1);
 }
-
+.sidebar-state-project {
+  border-right: 1px solid var(--red-2);
+}
 .sidebar-state-number {
   font-weight: bold;
   font-size: 20px;
@@ -204,15 +206,16 @@
   .icon-email {
     color: var(--red-2);
   }
+  
 }
 
 @if index($social-keys, "github") {
   .icon-github {
-    color: #191717;
+    color: #6a9bd4;
   }
 
   [data-theme="dark"] .icon-github {
-    color: #bc88ff;
+    color: #6a9bd4;
   }
 }
 
@@ -252,7 +255,7 @@
 
 @if index($social-keys, "linkedin") {
   .icon-linkedin {
-    color: #0e76a8;
+    color: #6a9bd4;
   }
 }
 
@@ -499,7 +502,9 @@
   &:hover {
     opacity: 1;
   }
-
+[data-theme="dark"] .link-active {
+  background: var(--red-2);
+}
   .sidebar-menu-link {
     color: #2e5fad;
     opacity: 1;

@@ -27,7 +27,12 @@
 }
 
 .widget-title {
-  display: none;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--grey-9);
+  padding: 20px 20px 8px;
+  text-align: center;  /* left | center | right */
 }
 
 .widget-link {
