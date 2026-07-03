@@ -1,10 +1,13 @@
 ---
-title: "Análise da Representação Gráfica de Dados sobre Homicídios no Brasil"
+title: "Análise de Gráfico"
 date: "2026-06-05"
 cover: "/images/grafico.jpg"
 categories:
   - Estatística
 ---
+## Título 
+
+Análise da Representação Gráfica de Dados sobre Homicídios no Brasil
 
 ## Objetivo
 

@@ -143,7 +143,7 @@
       {{- partial "post/tag.html" . -}}
     </footer>
   </div>
-  {{- if in .Site.Params.mainSections .Type -}}
+  {{- if or (in .Site.Params.mainSections .Type) (eq .Type "projetos") -}}
     {{- partial "post/nav.html" . -}}
   {{- end -}}
 </article>

@@ -22,7 +22,7 @@ menu:
     icon: "/images/gato_sem_fundo.gif"
 
 mainSections: #["projetos"]
-  #- Projetos
+  #- projetos
   - post
 # 年，月，日及时间的格式化样式
 # Format style for year,month,date & time
@@ -67,7 +67,7 @@ banner_srcset:
     - src: "images/banner-ceu.jpg"
       media: "(min-width: 800px)"
 
-avatar: "image/foto.jpg"
+avatar: "image/foto.jpeg"
 
 # Control the display of the post cover
 # If not set, the banner image will be displayed by default
@@ -123,14 +123,14 @@ sidebar:
     show_common: true # whether to show common sidebar, ignored on mobile devices
 
 social:
-   email: ana.s.goncalves@ufv.br
+   email: mailto:ana.s.goncalves@ufv.br
    github: https://github.com/SGVick7
   # google: https://plus.google.com/yourname
   # twitter: https://twitter.com/yourname
   # bluesky: https://bsky.app/profile/yourname
   # facebook: https://www.facebook.com/yourname
   # instagram: https://www.instagram.com/yourname
-   linkedin: https://www.linkedin.com/in/ana-victória-silva-gonçalves-872797326?utm_source=share_via&utm_content=profile&utm_medium=member_android
+   linkedin: https://www.linkedin.com/in/ana-vict%C3%B3ria-silva-gon%C3%A7alves-872797326/
   # pinterest: https://www.pinterest.com/yourname
   # youtube: https://www.youtube.com/channel/yourname
   # vimeo: https://vimeo.com/yourname

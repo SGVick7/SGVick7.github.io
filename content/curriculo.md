@@ -4,13 +4,13 @@ date: 2026-06-18
 ---
 # Ana Victória Silva Gonçalves
 
-Estudante de Estatística com interesse em Ciência de Dados, Análise Estatística, Visualização de Dados e Pesquisa Quantitativa.
+Estudante de Ciências de Dados com interesse em Programação, Análise Estatística e Visualização de Dados .
 
 ## Contato
 
-* E-mail: [ana.s.goncalves@ufv.br](mailto:seuemail@exemplo.com)
+* E-mail: ana.s.goncalves@ufv.br
 * GitHub: https://github.com/SGVick7
-* LinkedIn: https://linkedin.com/in/seu-perfil
+* * LinkedIn: https://www.linkedin.com/in/ana-vict%C3%B3ria-silva-gon%C3%A7alves-872797326/
 * Viçosa - MG
 
 ---
@@ -33,7 +33,6 @@ Previsão de conclusão: 2030
 * Inferência Estatística
 * Aprendizado de Máquina
 * Visualização de Dados
-* Pesquisa Quantitativa
 
 ---
 
@@ -50,15 +49,6 @@ Previsão de conclusão: 2030
 * Git e GitHub
 * Python
 * Excel
-
-### Bibliotecas
-
-* ggplot2
-* dplyr
-* tidyr
-* numpy
-* pandas
-* matplotlib
 
 ---
 
@@ -101,6 +91,7 @@ Previsão de conclusão: 2030
 
 * Português: Nativo
 * Inglês: Leitura técnica
+* Espanhol: Intermédiario
 
 
 
