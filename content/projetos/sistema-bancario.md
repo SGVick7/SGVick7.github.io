@@ -4,6 +4,7 @@ date: "2026-05-24"
 cover: "/images/atendimento.png"
 categories:
   - Python
+description: "Simulação de atendimento bancário com filas, priorizando clientes preferenciais e calculando estatísticas de espera."
 ---
 
 # Objetivo

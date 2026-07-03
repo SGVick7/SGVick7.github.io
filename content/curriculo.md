@@ -10,7 +10,7 @@ Estudante de Ciências de Dados com interesse em Programação, Análise Estatí
 
 * E-mail: ana.s.goncalves@ufv.br
 * GitHub: https://github.com/SGVick7
-* * LinkedIn: https://www.linkedin.com/in/ana-vict%C3%B3ria-silva-gon%C3%A7alves-872797326/
+* LinkedIn: https://www.linkedin.com/in/ana-vict%C3%B3ria-silva-gon%C3%A7alves-872797326/
 * Viçosa - MG
 
 ---

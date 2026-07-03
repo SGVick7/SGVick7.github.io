@@ -5,8 +5,9 @@ defaultContentLanguage = "pt-br"
   [module.hugoVersion]
     extended = true
     min = "0.158.0"
-
+disableKinds = ["RSS"]
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+      
