@@ -398,3 +398,20 @@ a, .main-nav-icon, .popup-btn-close, button {
   background: var(--red-1);
 }
 {{ end }}
+[data-theme="dark"] .sidebar-state {
+  color: var(--red-2);
+}
+
+[data-theme="dark"] .sidebar-state a {
+  color: var(--red-2);
+}
+
+[data-theme="dark"] .sidebar-state-number {
+  color: var(--red-2);
+}
+
+[data-theme="dark"] .sidebar-state-category div,
+[data-theme="dark"] .sidebar-state-tag div,
+[data-theme="dark"] .sidebar-state-article div {
+  color: var(--red-2) !important;
+}

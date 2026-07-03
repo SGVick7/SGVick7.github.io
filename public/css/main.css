@@ -11,7 +11,7 @@
 :root {
   --red-0: #a2c0fc;
   --red-1: #2f2c79;
-  --red-2: #a2c0fc;
+  --red-2: #6a9bd4;
   --red-3: #6a9bd4;
   --red-4: #ffd0d0;
   --red-5: #a2c0fc;
@@ -61,7 +61,7 @@
 }
 
 [data-theme="dark"]:root {
-  --red-0: var(--red-1);
+  --red-0: #a2c0fc;
   --red-4: #9f90ea;
   --red-5: rgba(255, 228, 228, 0.15);
   --red-5-5: rgba(255, 236, 236, 0.05);

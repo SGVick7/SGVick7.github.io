@@ -127,7 +127,9 @@
   &:hover {
     opacity: 1;
   }
-
+[data-theme="dark"] .sidebar-state {
+  color: #ffffff; // cor no modo escuro
+}
   > div,
   > a {
     display: flex;
@@ -676,4 +678,9 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+}
+
+[data-theme="dark"] .article-category-list a,
+[data-theme="dark"] .article-tag-list-item a {
+  color: #6a9bd4;
 }

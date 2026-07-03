@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Estatística on </title>
-    <link>//localhost:1313/categories/estat%C3%ADstica/</link>
+    <link>/categories/estat%C3%ADstica/</link>
     <description>Recent content from </description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate>
     
     
-    <atom:link href="//localhost:1313/categories/estat%C3%ADstica/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="/categories/estat%C3%ADstica/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>Análise da Representação Gráfica de Dados sobre Homicídios no Brasil</title>
-      <link>//localhost:1313/projetos/rpubs/</link>
+      <link>/projetos/rpubs/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:00 &#43;0000</pubDate>
       <author>ana.s.goncalves@ufv.br (Ana Victória)</author>
-      <guid>//localhost:1313/projetos/rpubs/</guid>
+      <guid>/projetos/rpubs/</guid>
       <description>
         <![CDATA[<h1>Análise da Representação Gráfica de Dados sobre Homicídios no Brasil</h1><p>Author: Ana Victória(ana.s.goncalves@ufv.br)</p>
         
@@ -39,7 +39,7 @@ Objetivo
 Descrição
 </h2><p>Neste trabalho foi realizada uma análise da representação gráfica utilizada em uma reportagem sobre a redução dos homicídios no Brasil. O estudo investigou como o uso de um eixo vertical truncado pode gerar uma percepção exagerada da magnitude da redução observada.</p>
         
-        <hr><p>Published on 2026-06-05 at <a href='//localhost:1313/'></a>, last modified on 2026-06-05</p>]]>
+        <hr><p>Published on 2026-06-05 at <a href='/'></a>, last modified on 2026-06-05</p>]]>
       </description>
       
         <category>Estatística</category>

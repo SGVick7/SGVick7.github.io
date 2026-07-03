@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>projeto on </title>
-    <link>//localhost:1313/projetos/</link>
+    <link>/projetos/</link>
     <description>Recent content from </description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate>
     
     
-    <atom:link href="//localhost:1313/projetos/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="/projetos/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>Análise da Representação Gráfica de Dados sobre Homicídios no Brasil</title>
-      <link>//localhost:1313/projetos/rpubs/</link>
+      <link>/projetos/rpubs/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:00 &#43;0000</pubDate>
       <author>ana.s.goncalves@ufv.br (Ana Victória)</author>
-      <guid>//localhost:1313/projetos/rpubs/</guid>
+      <guid>/projetos/rpubs/</guid>
       <description>
         <![CDATA[<h1>Análise da Representação Gráfica de Dados sobre Homicídios no Brasil</h1><p>Author: Ana Victória(ana.s.goncalves@ufv.br)</p>
         
@@ -39,7 +39,7 @@ Objetivo
 Descrição
 </h2><p>Neste trabalho foi realizada uma análise da representação gráfica utilizada em uma reportagem sobre a redução dos homicídios no Brasil. O estudo investigou como o uso de um eixo vertical truncado pode gerar uma percepção exagerada da magnitude da redução observada.</p>
         
-        <hr><p>Published on 2026-06-05 at <a href='//localhost:1313/'></a>, last modified on 2026-06-05</p>]]>
+        <hr><p>Published on 2026-06-05 at <a href='/'></a>, last modified on 2026-06-05</p>]]>
       </description>
       
         <category>Estatística</category>
@@ -50,10 +50,10 @@ Descrição
 
     <item>
       <title>Sistema de Atendimento Bancário em Python</title>
-      <link>//localhost:1313/projetos/sistema-bancario/</link>
+      <link>/projetos/sistema-bancario/</link>
       <pubDate>Sun, 24 May 2026 00:00:00 &#43;0000</pubDate>
       <author>ana.s.goncalves@ufv.br (Ana Victória)</author>
-      <guid>//localhost:1313/projetos/sistema-bancario/</guid>
+      <guid>/projetos/sistema-bancario/</guid>
       <description>
         <![CDATA[<h1>Sistema de Atendimento Bancário em Python</h1><p>Author: Ana Victória(ana.s.goncalves@ufv.br)</p>
         
@@ -200,7 +200,7 @@ Código-Fonte
 </span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">print(&#39;Opção inválida!&#39;)</span>
 </span></span></code></pre></div><p><a href="LINK_DO_REPOSITORIO">https://github.com/SGVick7/Sistema-de-Atendimento-Bancario.git</a></p>
         
-        <hr><p>Published on 2026-05-24 at <a href='//localhost:1313/'></a>, last modified on 2026-05-24</p>]]>
+        <hr><p>Published on 2026-05-24 at <a href='/'></a>, last modified on 2026-05-24</p>]]>
       </description>
       
         <category>Python</category>

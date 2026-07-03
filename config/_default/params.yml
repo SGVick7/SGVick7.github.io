@@ -210,7 +210,7 @@ triangle_badge:
   icon: github # same as the icon in the social config
   link: https://github.com/D-Sketon/hugo-theme-reimu
 
-anchor_icon: # default use '#' icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1', you can also use false to hide anchor icon
+anchor_icon: false # default use '#' icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1', you can also use false to hide anchor icon
 
 reimu_cursor:
   enable: false
@@ -740,7 +740,7 @@ material_theme:
 
 internal_theme:
   light:
-    --blue-0: '#000020'
+    --blue-0: '#2d56a8'
     --blue-1: '#171a4a'
     --blue-2: '#2f2c79'   # cor principal
     --blue-3: '#675cb0'
@@ -796,13 +796,15 @@ internal_theme:
   #  --highlight-addition: "#22863a"
   #  --highlight-addition-bg: "#f0fff4"
   dark:
+      --red-0: '#89a9e8'
+      --red-1: '#1e3a6e'
       --red-4: '#9f90ea'
       --red-5: 'rgba(255,228,228,0.15)'
       --red-5-5: 'rgba(255,236,236,0.05)'
       --red-6: 'rgba(255, 243, 243, 0.2)'
   
       --highlight-nav: "#222830"
-      --highlight-scrollbar: "#6a9bd4"
+      --highlight-scrollbar: "#7ee787"
       --highlight-background: "#1e2027"
       --highlight-selection: "#51515155"
       --highlight-foreground: "#c9d1d9"
