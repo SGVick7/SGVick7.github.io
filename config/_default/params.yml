@@ -705,8 +705,16 @@ player:
           artist: "DPR IAN"
           url: "/music/no-blueberries-dpr-ian.mp3"
           cover: "/images/no-blueberries.jpg"
+        - name: "She Knows"
+          artist: "Ne-Yo"
+          url: "/music/Neyo-She Knows.mp3"
+          cover: "/images/no-blueberries.jpg"
+        - name: "People"
+          artist: "Libianca e Becky G"
+          url: "/music/Libianca-People.mp3"
+          cover: "/images/no-blueberries.jpg"
       fixed: false
-      autoplay: false
+      autoplay: true
       loop: "all"
       order: "list"
       preload: "auto"
