@@ -194,9 +194,9 @@ data-theme-mode="auto"
         new APlayer({
             theme: "var(--color-link)",
             container: document.getElementById('aplayer'),
-            audio: JSON.parse("[{\"artist\":\"DPR IAN\",\"cover\":\"/images/no-blueberries.jpg\",\"name\":\"No Blueberries\",\"url\":\"/music/no-blueberries-dpr-ian.mp3\"}]") || [],
+            audio: JSON.parse("[{\"artist\":\"DPR IAN\",\"cover\":\"/images/no-blueberries.jpg\",\"name\":\"No Blueberries\",\"url\":\"/music/no-blueberries-dpr-ian.mp3\"},{\"artist\":\"Ne-Yo\",\"cover\":\"/images/no-blueberries.jpg\",\"name\":\"She Knows\",\"url\":\"/music/Neyo-She Knows.mp3\"},{\"artist\":\"Libianca e Becky G\",\"cover\":\"/images/no-blueberries.jpg\",\"name\":\"People\",\"url\":\"/music/Libianca-People.mp3\"}]") || [],
             fixed: isMobile ? true : ( false  || false),
-            autoplay:  false  || false,
+            autoplay:  true  || false,
             loop: 'all' || 'all',
             order: 'list' || 'list',
             preload: 'auto' || 'auto',

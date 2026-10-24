@@ -145,11 +145,11 @@ Este artigo não possui uma versão neste idioma
 </div>
 <div class="sidebar-state">
   <a class="sidebar-state-project" href="/projetos/" aria-label="sidebar-state-project-link">
-    <div>Projetos</div><div class="sidebar-state-number">4</div>
+    <div>Projetos</div><div class="sidebar-state-number">5</div>
   </a>
   <a class="sidebar-state-category" href="/categories/" aria-label="sidebar-state-category-link">
     <div>Categorias</div>
-    <div class="sidebar-state-number">4</div>
+    <div class="sidebar-state-number">5</div>
   </a>
 </div>
 <div class="sidebar-social" ><div class="icon-email sidebar-social-icon">
@@ -189,6 +189,11 @@ Este artigo não possui uma versão neste idioma
                 <a class="category-list-link" href="/categories/html/" 
                   title="HTML"
                   >HTML</a
+                >
+              </li><li class="category-list-item">
+                <a class="category-list-link" href="/categories/javascript/" 
+                  title="JavaScript"
+                  >JavaScript</a
                 >
               </li><li class="category-list-item">
                 <a class="category-list-link" href="/categories/python/" 
@@ -267,21 +272,22 @@ Metodologia e reprodutibilidade
 Os arquivos originais (.html / .csv) extraídos do IBGE passam por limpeza e estruturação em R, gerando bases tratadas prontas para análise, preservando a rastreabilidade entre dado bruto e dado final.</p>
 <p><strong>Medidas descritivas completas</strong>
 Posição, dispersão, separatrizes, assimetria (via <code>e1071</code>) e correlação de Pearson, formatadas em tabelas limpas com <code>knitr</code> — além de índices ponderados para leitura comparativa entre regiões.</p>
-<p><strong>Estrutura do projeto:</strong></p>
-<p>projeto_grupo/
-├── dados/
-│   ├── brutos/          # arquivos originais IBGE (Base A e B)
-│   └── tratados/        # bases limpas, geradas via script
-├── codigos/
-│   ├── dados-brutos-em-R/
-│   ├── calculos-e-analises-itens-5.3-5.6/
-│   └── graficos-itens-5.3-5.4/
-├── relatorio/
-│   ├── codigo-fonte/    # relatorio.tex
-│   └── relatorio.pdf
-└── apresentacao/
-└── slide-est100.pdf</p>
-<hr>
+<p><strong>Estrutura do projeto:</strong>
+<strong>Estrutura do projeto:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>projeto_grupo/
+</span></span><span style="display:flex;"><span>├── dados/
+</span></span><span style="display:flex;"><span>│   ├── brutos/          # arquivos originais IBGE (Base A e B)
+</span></span><span style="display:flex;"><span>│   └── tratados/        # bases limpas, geradas via script
+</span></span><span style="display:flex;"><span>├── codigos/
+</span></span><span style="display:flex;"><span>│   ├── dados-brutos-em-R/
+</span></span><span style="display:flex;"><span>│   ├── calculos-e-analises-itens-5.3-5.6/
+</span></span><span style="display:flex;"><span>│   └── graficos-itens-5.3-5.4/
+</span></span><span style="display:flex;"><span>├── relatorio/
+</span></span><span style="display:flex;"><span>│   ├── codigo-fonte/    # relatorio.tex
+</span></span><span style="display:flex;"><span>│   └── relatorio.pdf
+</span></span><span style="display:flex;"><span>└── apresentacao/
+</span></span><span style="display:flex;"><span>    └── slide-est100.pdf
+</span></span></code></pre></div><hr>
 <h2 id="cinco-perguntas-cinco-gráficos">
 <a class="header-anchor" href="#cinco-perguntas-cinco-gr%c3%a1ficos"></a>
 Cinco perguntas, cinco gráficos
@@ -307,10 +313,10 @@ Cinco perguntas, cinco gráficos
 5. <strong>Taxas e índices</strong> — Qual região expandiu seu principal motor produtivo mais rápido?
 </h3><p><img src="/images/graficos/grafico-5.png" alt="Taxas de crescimento por região"></p>
 <hr>
-<h2 id="stack-técnica">
-<a class="header-anchor" href="#stack-t%c3%a9cnica"></a>
-Stack técnica
-</h2><p><code>R</code> · <code>RStudio</code> · <code>tidyverse</code> · <code>ggplot2</code> · <code>e1071</code> (assimetria) · <code>knitr</code> · <code>LaTeX</code> · <code>IBGE / SIDRA</code></p>
+<h2 id="ficha-técnica">
+<a class="header-anchor" href="#ficha-t%c3%a9cnica"></a>
+Ficha técnica
+</h2><p><code>R</code> · <code>RStudio</code> · <code>tidyverse</code> · <code>ggplot2</code> · <code>e1071</code> · <code>knitr</code> · <code>LaTeX</code> · <code>IBGE / SIDRA</code></p>
 <hr>
 <h2 id="dados-públicos-uso-responsável-de-ia">
 <a class="header-anchor" href="#dados-p%c3%bablicos-uso-respons%c3%a1vel-de-ia"></a>
@@ -326,17 +332,14 @@ Links
 <li>📜 Licença MIT</li>
 </ul>
 <hr>
-<p><em>Ana Victoria Silva Gonçalves — <a href="https://github.com/SGVick7">@SGVick7</a></em></p>
 <h2 id="autores">
 <a class="header-anchor" href="#autores"></a>
 Autores:
 </h2><p><em>Ana Victoria — <a href="https://github.com/SGVick7">@SGVick7</a></em></p>
 <p><em>Pedro Lucas Domingues lima — <a href="https://github.com/PeuLucas77">@PeuLucas77</a></em></p>
 <p><em>Luan Leal</em></p>
-<h4 id="estudantes-de-ciência-de-dados-análise-estatística">
-<a class="header-anchor" href="#estudantes-de-ci%c3%aancia-de-dados-an%c3%a1lise-estat%c3%adstica"></a>
-Estudantes de Ciência de Dados, Análise Estatística
-</h4><hr>
+<p><strong>Estudantes de Ciência de Dados, Universidade Federal de Viçosa (UFV)</strong></p>
+<hr>
 <h2 id="projeto-acadêmico">
 <a class="header-anchor" href="#projeto-acad%c3%aamico"></a>
 Projeto Acadêmico
@@ -368,6 +371,18 @@ Projeto Acadêmico
         ></a>
         <div class="article-nav-caption">Anterior</div>
         <h3 class="article-nav-title">Análise de Gráfico</h3>
+      </div><div class="article-nav-link-wrap right"><img
+            data-src="/images/vyck.png"
+            data-sizes="auto"
+            alt="VYCK Acessórios"
+            class="lazyload"
+          /><a
+          href="/projetos/vyck-store/"
+          aria-label="Próximo:VYCK Acessórios"
+          title="Próximo:VYCK Acessórios"
+        ></a>
+        <div class="article-nav-caption">Próximo</div>
+        <h3 class="article-nav-title">VYCK Acessórios</h3>
       </div></nav></article></section>
         </div><footer id="footer" aria-label="Site footer">
   <div style="width: 100%; overflow: hidden">
@@ -421,11 +436,11 @@ Projeto Acadêmico
 </div>
 <div class="sidebar-state">
   <a class="sidebar-state-project" href="/projetos/" aria-label="sidebar-state-project-link">
-    <div>Projetos</div><div class="sidebar-state-number">4</div>
+    <div>Projetos</div><div class="sidebar-state-number">5</div>
   </a>
   <a class="sidebar-state-category" href="/categories/" aria-label="sidebar-state-category-link">
     <div>Categorias</div>
-    <div class="sidebar-state-number">4</div>
+    <div class="sidebar-state-number">5</div>
   </a>
 </div>
 <div class="sidebar-social" ><div class="icon-email sidebar-social-icon">
@@ -546,9 +561,9 @@ Projeto Acadêmico
         new APlayer({
             theme: "var(--color-link)",
             container: document.getElementById('aplayer'),
-            audio: JSON.parse("[{\"artist\":\"DPR IAN\",\"cover\":\"/images/no-blueberries.jpg\",\"name\":\"No Blueberries\",\"url\":\"/music/no-blueberries-dpr-ian.mp3\"}]") || [],
+            audio: JSON.parse("[{\"artist\":\"DPR IAN\",\"cover\":\"/images/no-blueberries.jpg\",\"name\":\"No Blueberries\",\"url\":\"/music/no-blueberries-dpr-ian.mp3\"},{\"artist\":\"Ne-Yo\",\"cover\":\"/images/no-blueberries.jpg\",\"name\":\"She Knows\",\"url\":\"/music/Neyo-She Knows.mp3\"},{\"artist\":\"Libianca e Becky G\",\"cover\":\"/images/no-blueberries.jpg\",\"name\":\"People\",\"url\":\"/music/Libianca-People.mp3\"}]") || [],
             fixed: isMobile ? true : ( false  || false),
-            autoplay:  false  || false,
+            autoplay:  true  || false,
             loop: 'all' || 'all',
             order: 'list' || 'list',
             preload: 'auto' || 'auto',

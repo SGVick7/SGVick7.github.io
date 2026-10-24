@@ -124,7 +124,7 @@ Este artigo não possui uma versão neste idioma
       </a><a class="main-nav-link-wrap" href="/contato" title="Contato"><div class='main-nav-icon icon '><span class="main-nav-icon-mask" style="--icon-url: url(/images/gato_sem_fundo.gif);"></span></div><span class="main-nav-link"></span>
       </a><a id="main-nav-toggle" class="nav-icon" aria-label="Toggle navigation" role="button"></a>
   </nav>
-  <nav id="sub-nav" aria-label="Secondary navigation"><a id="nav-rss-link" class="nav-icon" href="/categories/python/index.xml" title="Feed RSS" aria-label="Feed RSS" target="_blank"></a></nav></div>
+  <nav id="sub-nav" aria-label="Secondary navigation"></nav></div>
 <header id="header" aria-label="Site header"><picture></picture><img  fetchpriority="high" src="/images/computador2.png" alt="Python"><div id="header-outer">
     <div id="header-title"><span id="logo">
             <h1 data-aos="slide-up">Categoria</h1>
@@ -144,11 +144,11 @@ Este artigo não possui uma versão neste idioma
 </div>
 <div class="sidebar-state">
   <a class="sidebar-state-project" href="/projetos/" aria-label="sidebar-state-project-link">
-    <div>Projetos</div><div class="sidebar-state-number">4</div>
+    <div>Projetos</div><div class="sidebar-state-number">5</div>
   </a>
   <a class="sidebar-state-category" href="/categories/" aria-label="sidebar-state-category-link">
     <div>Categorias</div>
-    <div class="sidebar-state-number">4</div>
+    <div class="sidebar-state-number">5</div>
   </a>
 </div>
 <div class="sidebar-social" ><div class="icon-email sidebar-social-icon">
@@ -190,6 +190,11 @@ Este artigo não possui uma versão neste idioma
                   >HTML</a
                 >
               </li><li class="category-list-item">
+                <a class="category-list-link" href="/categories/javascript/" 
+                  title="JavaScript"
+                  >JavaScript</a
+                >
+              </li><li class="category-list-item">
                 <a class="category-list-link" href="/categories/python/" 
                   title="Python"
                   >Python</a
@@ -222,6 +227,13 @@ Este artigo não possui uma versão neste idioma
     >
       <a class="archives-category-list-link" href="/categories/html/"
         >HTML</a
+      >
+    </div><div
+      class="archives-category-list-item"
+      data-aos="zoom-in"
+    >
+      <a class="archives-category-list-link" href="/categories/javascript/"
+        >JavaScript</a
       >
     </div><div
       class="archives-category-list-item"
@@ -301,11 +313,11 @@ Este artigo não possui uma versão neste idioma
 </div>
 <div class="sidebar-state">
   <a class="sidebar-state-project" href="/projetos/" aria-label="sidebar-state-project-link">
-    <div>Projetos</div><div class="sidebar-state-number">4</div>
+    <div>Projetos</div><div class="sidebar-state-number">5</div>
   </a>
   <a class="sidebar-state-category" href="/categories/" aria-label="sidebar-state-category-link">
     <div>Categorias</div>
-    <div class="sidebar-state-number">4</div>
+    <div class="sidebar-state-number">5</div>
   </a>
 </div>
 <div class="sidebar-social" ><div class="icon-email sidebar-social-icon">
@@ -426,9 +438,9 @@ Este artigo não possui uma versão neste idioma
         new APlayer({
             theme: "var(--color-link)",
             container: document.getElementById('aplayer'),
-            audio: JSON.parse("[{\"artist\":\"DPR IAN\",\"cover\":\"/images/no-blueberries.jpg\",\"name\":\"No Blueberries\",\"url\":\"/music/no-blueberries-dpr-ian.mp3\"}]") || [],
+            audio: JSON.parse("[{\"artist\":\"DPR IAN\",\"cover\":\"/images/no-blueberries.jpg\",\"name\":\"No Blueberries\",\"url\":\"/music/no-blueberries-dpr-ian.mp3\"},{\"artist\":\"Ne-Yo\",\"cover\":\"/images/no-blueberries.jpg\",\"name\":\"She Knows\",\"url\":\"/music/Neyo-She Knows.mp3\"},{\"artist\":\"Libianca e Becky G\",\"cover\":\"/images/no-blueberries.jpg\",\"name\":\"People\",\"url\":\"/music/Libianca-People.mp3\"}]") || [],
             fixed: isMobile ? true : ( false  || false),
-            autoplay:  false  || false,
+            autoplay:  true  || false,
             loop: 'all' || 'all',
             order: 'list' || 'list',
             preload: 'auto' || 'auto',

@@ -3,7 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/css/</loc>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/html/</loc>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/javascript/</loc>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/projetos/</loc>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/projetos/vyck-store/</loc>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/contato/</loc>
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
@@ -11,13 +29,7 @@
     <loc>/projetos/analise-estatistica/</loc>
     <lastmod>2026-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/categories/estat%C3%ADstica/</loc>
-    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/projetos/</loc>
     <lastmod>2026-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/curriculo/</loc>
@@ -31,12 +43,6 @@
   </url><url>
     <loc>/projetos/sistema-bancario/</loc>
     <lastmod>2026-05-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/css/</loc>
-    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/html/</loc>
-    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/projetos/site-skzflix/</loc>
     <lastmod>2022-12-05T00:00:00+00:00</lastmod>
